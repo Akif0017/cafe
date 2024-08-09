@@ -1,0 +1,101 @@
+{% load static %}
+
+{% block content %}
+
+
+<div class="main-bg">
+    <div class="my-container">
+        <div class="all-bg">
+
+            <div class="bg-foto">
+                <div>
+                    <img src="{% static 'main/img/bg.jpg' %}" class="coffee" alt="">
+                </div>
+            </div>
+
+            <div class="bg-join">
+                <div>
+                    <h4>
+                        Our pleasure is for you
+                    </h4>
+                </div>
+
+                <div>
+                    <h6>
+                        Join us and enjoy our coffee
+                    </h6>
+                </div>
+
+                <div class="button">
+                    <a href=""><span>Join now</span></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="all-order">
+
+            <div class="order-now">
+                <div>
+                    <h4>
+                        Sunny-day essentials
+                    </h4>
+                </div>
+
+                <div>
+                    <h6>
+                        Flavorful creations sure to brighten any summer day.  
+                    </h6>
+                </div>
+
+                <div class="order-button">
+                    <a href="{% url 'coffees' %}"><span>Order now</span></a>
+                </div>
+            </div>
+
+            <div class="order-foto">
+                <div>
+                    <img src="{% static 'main/img/bg4.jpg' %}" class="order-bg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+               
+        <div class="order-crs">
+
+            <div class="crs-foto">
+                <div>
+                    <img src="{% static 'main/img/bg3.jpg' %}" class="crs-bg" alt="">
+                </div>
+            </div>
+
+            <div class="crs-order-now">
+                <div>
+                    <h4>
+                        Carefully! 
+                    </h4>
+                </div>
+
+                <div>
+                    <h6>
+                        The following pages have very tasty croissants
+                    </h6>
+                </div>
+
+                <div class="crs-button">
+                    <a href="{% url 'croissants' %}"><span>Order now</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="empty">
+            
+        </div>
+
+    </div>
+</div>
+
+
+{% endblock %}
+

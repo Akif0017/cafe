@@ -1,0 +1,23 @@
+{% load static %}
+<div class="menu-croissants">
+    <div class="my-container">
+        <div class="all-croissants">
+            <div class="croissant-1 gap-3 my-5 row">
+                {% for cr in croissant %}
+                <div class="col-35 card bg-white">
+                    <div class="card-header" style="background-image: url('{{ cr.image.url }}');">   
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h5>{{ cr.croissant_name }}</h5>
+                            <h5>${{ cr.price }}</h5>
+                        </div>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-white"><span>+</span></button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+        </div>
+    </div>
+</div>  

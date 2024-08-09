@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Kanit;
+}
+
+.nav-item.active {
+    color: #F5EDED;
+}
+
+body {
+    background: #F5EDED;
+}
+
+.my-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.all-header {
+    width: 100%;
+    height: 10vh;
+    background-color: #E2DAD6;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    width: 10%;
+    height: 5vh;
+}
+
+.site-icon {
+    width: 50%;
+    height: 8vh;
+    padding-top: 15px;
+}
+
+.coffee-menu {
+    width: 30%;
+    padding-top: 35px;
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-menu > a {
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+.sign-loc {
+    width: 25%;
+    padding-top: 35px;
+    margin-left: 800px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-loc > a {
+    list-style: none;
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+
+.all-bg {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+}
+
+.bg-foto {
+    width: 50%;
+    height: 50vh;
+}
+
+.coffee {
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+}
+
+.bg-join {
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+    padding-top: 180px;
+    background: #E2DAD6;
+}
+
+.bg-join > div > h6 {
+    padding-top: 30px;
+}
+
+.button {
+    padding-top: 20px;
+}
+
+.button > a {
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button > a {
+    border-radius: 10px;
+    padding: 3px 20px;
+}
+
+.button > a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button > a span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button > a:hover span {
+    padding-right: 25px;
+}
+  
+.button > a:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.all-order {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+}
+
+.order-foto {
+    width: 50%;
+    height: 50vh;
+}
+
+.order-bg {
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+}
+
+.order-now {
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+    padding-top: 180px;
+    background: #FFEBD4 ;
+}
+
+.order-now > div > h6 {
+    padding-top: 30px;
+}
+
+.order-button {
+    padding-top: 20px;
+}
+
+.order-button > a {
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.order-button > a {
+    border-radius: 10px;
+    padding: 3px 20px;
+}
+
+.order-button > a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.order-button > a span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.order-button > a:hover span {
+    padding-right: 25px;
+}
+  
+.order-button > a:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.order-crs {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+}
+
+.crs-foto {
+    width: 50%;
+    height: 50vh;
+}
+
+.crs-bg {
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+}
+
+.crs-order-now {
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+    padding-top: 180px;
+    background: #E1AFD1  ;
+}
+
+.crs-order-now > div > h6 {
+    padding-top: 30px;
+}
+
+.crs-button {
+    padding-top: 20px;
+}
+
+.crs-button > a {
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.crs-button > a {
+    border-radius: 10px;
+    padding: 3px 20px;
+}
+
+.crs-button > a span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.crs-button > a span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.crs-button > a:hover span {
+    padding-right: 25px;
+}
+  
+.crs-button > a:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.empty {
+    width: 100%;
+    height: 5vh;
+}
+
+.main-footer {
+    width: 100%;
+    height: 55vh;
+    background: #F6F5F5;
+}
+
+.footer {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+}
+
+.contacts {
+    width: 50%;
+    height: 55vh;  
+}
+
+.icon-p {
+    padding-top: 170px;
+    text-align: center;
+    font-size: large;
+}
+
+.icons {
+    width: 30%;
+    height: 5vh;
+    margin-left: 267px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons > a {
+    font-size: 30px;
+}
+
+.location {
+    width: 50%;
+    height: 55vh;
+}
+
+.contacts > h5 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contacts > p:last-child {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.location > iframe {
+    width: 100%;
+    height: 55vh;
+}
+
+.all-coffees {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffee-1 {
+    width: 100%;
+    display: flex;
+}
+
+.card .card-header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-position: left;
+    background-size: cover;
+    
+}
+
+.card-body button {
+    border: none;
+    font-size: 32px;
+    padding: 0 12px;
+    border-radius: 7px;
+    background: #F8EDE3;
+}
+
+.card-body button:hover {
+    background-color: #FEFAE0;
+}
+
+.col-35 {
+    flex: 0 0 auto;
+    width: 32%;
+}
+
+.croissant-1 {
+    width: 100%;
+    display: flex;
+}
+
+.card .card-header {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-position: left;
+    background-size: cover;
+    
+}
+
+.card-body button {
+    border: none;
+    font-size: 32px;
+    padding: 0 12px;
+    border-radius: 7px;
+    background: #F8EDE3;
+}
+
+.card-body button:hover {
+    background-color: #FEFAE0;
+}
+
+.col-35 {
+    flex: 0 0 auto;
+    width: 32%;
+}

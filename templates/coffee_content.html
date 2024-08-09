@@ -1,0 +1,23 @@
+{% load static %}
+<div class="menu-coffees">
+    <div class="my-container">
+        <div class="all-coffees">
+            <div class="coffee-1 gap-3 my-5 row">
+                {% for tmp in coffee %}
+                <div class="col-35 card bg-white">
+                    <div class="card-header" style="background-image: url('{{ tmp.image.url }}');">   
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h5>{{ tmp.coffee_name }}</h5>
+                            <h5>${{ tmp.price }}</h5>
+                        </div>
+                        <button class="w-100 d-flex align-items-center justify-content-center text-white"><span>+</span></button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+        </div>
+    </div>
+</div>  

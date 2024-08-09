@@ -1,0 +1,20 @@
+{% load static %}
+<nav class="all-header">
+    <div class="my-container">
+        <div class="menu">
+            <div class="logo">
+                <a href="{% url 'home' %}"><img src="{% static 'main/img/logo.png' %}" class="site-icon" alt=""></a>
+            </div>
+            <div class="coffee-menu" id="nav-links">
+                <a class="nav-item" href="{% url 'our_menu' %}">Our menu</a>
+                <a class="nav-item" href="{% url 'coffees' %}">Coffees</a>
+                <a class="nav-item" href="{% url 'croissants' %}">Croissants</a>
+            </div>
+            <div class="sign-loc">
+                <a href="#location">Location</a>
+                <a href="">Sign in</a>
+                <a href="">Join now</a>
+            </div>
+        </div>
+    </div>
+</nav>
